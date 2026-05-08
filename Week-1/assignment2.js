@@ -173,11 +173,9 @@ let number = 67;
 
 if (number < 0) {
   console.log("Negative number, we don't care!");
-} else if (number < 10) {
+} else if (number > 0 && number < 10) {
   console.log("Single digit number!");
-} else if (99 <= number) {
-  console.log("Double digit number!");
-} else if (number >= 10) {
+} else if (number >= 10 && 99 >= number) {
   console.log("Double digit number!");
 } else {
   console.log(
